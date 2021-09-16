@@ -31,7 +31,7 @@ if (notaFinal >= 7) {
 //Desafio 2: Mudar o estilo da página*
 //Desafio 3: Escrever na página o que aparece no Console
 //Desafio 4: Conversor de Temperatura
-//Desafio 4: Conversor de Moeda
+//Desafio 4: Conversor de Moeda*
 //Desafio 5: Colocar todo o código dentro do document.write
 //function pulaLinha() {
 
