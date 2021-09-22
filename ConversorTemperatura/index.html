@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <script src="tempertura.js"></script>
+    <title>Conversor de Temperaturas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Temperaturas
+        </h1>
+        <p class="page-subtitle">
+            Descubra a temperatura convertendo entre Graus Celsius ou Farenheit
+        </p>
+        <img src="images/termometro.jpg" class="page-logo" alt=""><br><br>
+
+        <label for="temperaturac">Insira o valor em graus celsius</label><br>
+        <input type="number" id="valorc" size="2" /> ><br><br>
+        <button type="submit" onclick="ConverterFarenheit()">Converter</button>
+        <h2 id="valorConvertidoFarenheit"></h2>
+        
+        <label for="temperaturaf">Insira o valor em graus farenheit</label><br>
+        <input type="number" id="valorf" size="2" /> ><br><br>
+        <button type="submit" onclick="ConverterCelsius()">Converter</button>
+        <h2 id="valorConvertidoCelsius"></h2>
+    
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo" >
+</body>
+</html>
